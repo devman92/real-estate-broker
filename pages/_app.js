@@ -3,7 +3,7 @@ import { CacheProvider } from '@emotion/react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 
 import createEmotionCache from '../utility/createEmotionCache';
-import lightTheme from '../styles/theme/theme.js';
+import theme from '../styles/theme/theme.js';
 import '../styles/globals.css';
 import ResponsiveAppBar from '../components/app/ResponsiveAppBar';
 
@@ -14,7 +14,7 @@ const MyApp = (props) => {
 
   return (
     <CacheProvider value={emotionCache}>
-      <ThemeProvider theme={lightTheme}>
+      <ThemeProvider theme={theme}>
         <CssBaseline />
         <ResponsiveAppBar />
         <Component {...pageProps} />

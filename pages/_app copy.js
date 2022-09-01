@@ -3,8 +3,8 @@ import Head from 'next/head';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
-import theme from '../config/theme';
-import createEmotionCache from '../config/createEmotionCache';
+import theme from '../styles/theme/theme.js';
+import createEmotionCache from '../utility/createEmotionCache';
 
 //COMPONENT IMPORTS
 import ResponsiveAppBar from '../components/app/ResponsiveAppBar';
