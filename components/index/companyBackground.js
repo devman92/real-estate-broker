@@ -80,7 +80,7 @@ export default function CompanyBackground() {
                     <TextCard
                         styling={styles.glass_surface_white_light}
                         highlightTextColor={theme.palette.primary.tan}
-                        highlightText="REST ASSURED"
+                        paragraphColor={theme.palette.primary.main}
                         titleText="BUILT ON TRUST"
                         bodyText="We at Roldan Estates pride ourselves with only the best. Trained professionals to guilde you in the real estate wilderness..."
                         cardOptionsButtons={cardOptionsButtons}

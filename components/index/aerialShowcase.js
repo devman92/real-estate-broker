@@ -45,7 +45,7 @@ export default function AerialShowcase(props) {
                     <TextCard
                         styling={styles.glass_surface_white_light}
                         highlightTextColor={theme.palette.primary.tan}
-                        highlightText="REST ASSURED"
+                        paragraphColor={theme.palette.primary.main}
                         titleText="BEAUTIFUL NEIGHBORHOODS"
                         bodyText="Explore peaceful and accessible locations."
                         cardOptionsButtons={cardOptionsButtons}

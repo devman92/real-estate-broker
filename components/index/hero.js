@@ -21,7 +21,7 @@ export default function Hero() {
     return (
 
         <main>
-            <Grid container xs={12}
+            <Grid item container xs={12}
                 sx={{
                     position: 'relative',
                     width: 'full',
@@ -81,7 +81,7 @@ export default function Hero() {
                     <TextCard
                         styling={styles.glass_surface_white_light}
                         highlightTextColor={theme.palette.primary.tan}
-                        highlightText="VIEW THE EXTRAORDINARY"
+                        paragraphColor={theme.palette.primary.main}
                         titleText="PREMIUM PROPERTIES"
                         bodyText="Carefully picked properties with huge upside potential and very little downside risk. Its a research company located in the midwest with imminent patent approvals for ..."
                         cardOptionsButtons={cardOptionsButtons}

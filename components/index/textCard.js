@@ -21,7 +21,9 @@ export default function TextCard(props) {
         {/* <Typography gutterBottom variant="h6" component="div" className={styles.elegant_paragraph2}>
           {props.titleText}
         </Typography> */}
-        <Typography variant="subtitle2" className={styles.elegant_paragraph2}>
+        <Typography variant="subtitle2" className={styles.elegant_paragraph2} sx={{
+          color: props.paragraphColor
+        }}>
           {props.bodyText}
         </Typography>
       </CardContent>
