@@ -16,7 +16,7 @@ export default function VideoCard(props) {
         options={options}
     />
   return (
-    <Card className={props.styling} >
+    <main>
       <div className={styles.player_wrapper}>
         <Grid item xs={12}
           sx={{
@@ -29,7 +29,7 @@ export default function VideoCard(props) {
             transform: 'translate(0%, 0%)'
           }}
         >
-          <LargeTitle titleText="EXPLORE BEAUTY" surface_style={styles.glass_surface_white_med} />
+          <LargeTitle titleText="EXPLORE BEAUTY" surface_style={styles.glass_surface_white_light} />
         </Grid>
         <Grid item xs={11} sm={10} md={10}
           sx={{
@@ -64,7 +64,7 @@ export default function VideoCard(props) {
         />
       </div>
 
-    </Card>
+    </main>
 
   );
 }

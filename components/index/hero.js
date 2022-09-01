@@ -51,7 +51,7 @@ export default function Hero() {
                     }}
                 >
                     <TextCard
-                        styling={styles.glass_surface_white_light}
+                        styling={styles.glass_surface_white_hard}
                         highlightTextColor='#B68D40'
                         highlightText="VIEW THE EXTRAORDINARY"
                         titleText="PREMIUM PROPERTIES"

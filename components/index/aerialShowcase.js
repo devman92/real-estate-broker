@@ -1,17 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
 //MATERIAL IMPORTS
-import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid';
 
 //COMPONENT IMPORTS
-import ButtonCard from './buttonCard';
+import TextCard from './textCard';
+import CardOptions from './cardOptions';
 import VideoCard from './videoCard';
 import theme from '../../styles/theme/theme';
-import LargeTitle from './largeTitle';
-import CardOptions from './cardOptions';
-import TextCard from './textCard';
 import styles from '../../styles/custom.module.css'
 
 export default function AerialShowcase(props) {
@@ -23,7 +17,7 @@ export default function AerialShowcase(props) {
 
         <main>
             <VideoCard
-                styling={styles.glass_surface_white_light}
+                styling={styles.glass_surface_white_hard}
                 titleText="EXPLORE BEAUTY"
                 titleTextColor={theme.palette.primary.gold}
             />
