@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import styles from '../../styles/Home.module.css'
-import theme from '../../config/theme';
+import theme from '../../styles/theme/theme';
 import dynamic from 'next/dynamic'
 import LargeTitle from './largeTitle';
 import Grid from '@mui/material/Grid'

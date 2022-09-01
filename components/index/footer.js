@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import { Typography } from '@mui/material';
 import styles from '../../styles/Home.module.css';
-import theme from '../../config/theme';
+import theme from '../../styles/theme/theme';
 
 export default function Footer() {
     return (

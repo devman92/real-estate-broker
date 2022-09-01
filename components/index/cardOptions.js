@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
 import styles from '../../styles/Home.module.css'
-import theme from '../../config/theme';
+import theme from '../../styles/theme/theme';
 
 export default function CardOptions(props) {
   return (

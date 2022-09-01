@@ -9,7 +9,7 @@ import Grid from '@mui/material/Grid';
 //COMPONENT IMPORTS
 import ButtonCard from './buttonCard';
 import VideoCard from './videoCard';
-import theme from '../../config/theme';
+import theme from '../../styles/theme/theme';
 import LargeTitle from './largeTitle';
 import CardOptions from './cardOptions';
 import TextCard from './textCard';
@@ -27,7 +27,7 @@ export default function AerialShowcase(props) {
                 titleText="EXPLORE BEAUTY"
                 titleTextColor={theme.palette.primary.gold}
             />
-            <Grid container xs={12}
+            <Grid item container xs={12}
                 sx={{
                     position: 'relative',
                     width: 'full',

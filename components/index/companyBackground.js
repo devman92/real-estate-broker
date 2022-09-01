@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
-import theme from '../../config/theme';
+import theme from '../../styles/theme/theme';
 
 //MATERIAL IMPORTS
 import Typography from '@mui/material/Typography'
