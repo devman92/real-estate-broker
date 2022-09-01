@@ -23,7 +23,7 @@ export default function AerialShowcase(props) {
 
         <main>
             <VideoCard
-                styling={styles.glass_clear}
+                styling={styles.glass_surface_white_light}
                 titleText="EXPLORE BEAUTY"
                 titleTextColor={theme.palette.primary.gold}
             />

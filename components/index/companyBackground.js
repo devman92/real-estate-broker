@@ -51,7 +51,7 @@ export default function CompanyBackground() {
                     }}
                 >
                     <TextCard 
-                        styling={styles.glass_surface_white_hard}
+                        styling={styles.glass_surface_white_light}
                         highlightTextColor={theme.palette.primary.tan}
                         highlightText="REST ASSURED"
                         titleText="BUILT ON TRUST"
