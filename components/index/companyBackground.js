@@ -11,7 +11,7 @@ import CardOptions from './cardOptions';
 import LargeTitle from './largeTitle';
 
 import theme from '../../styles/theme/theme';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/custom.module.css'
 
 
 export default function CompanyBackground() {
@@ -22,7 +22,7 @@ export default function CompanyBackground() {
     return (
 
         <main>
-            <Grid container xs={12}
+            <Grid item container xs={12}
                 sx={{
                     position: 'relative',
                     width: 'full',

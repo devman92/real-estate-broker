@@ -12,7 +12,7 @@ import theme from '../../styles/theme/theme';
 import LargeTitle from './largeTitle';
 import CardOptions from './cardOptions';
 import TextCard from './textCard';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/custom.module.css'
 
 export default function AerialShowcase(props) {
     const options = ["View Locations"]

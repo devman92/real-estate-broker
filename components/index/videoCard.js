@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid'
 import TextCard from './textCard';
 import CardOptions from './cardOptions';
 import theme from '../../styles/theme/theme';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/custom.module.css'
 
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 //

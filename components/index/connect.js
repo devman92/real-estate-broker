@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 import LabeledTextField from './textField';
 import Button from '@mui/material/Button';
 import theme from '../../styles/theme/theme';
-import styles from '../../styles/Home.module.css';
+import styles from '../../styles/custom.module.css';
 
 
 export default function Connect() {

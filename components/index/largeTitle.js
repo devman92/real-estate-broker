@@ -5,7 +5,7 @@ import Image from 'next/image'
 //MATERIAL IMPORTS
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/custom.module.css'
 
 export default function LargeTitle(props) {
     return (

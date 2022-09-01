@@ -10,7 +10,7 @@ import TextCard from './textCard';
 import CardOptions from './cardOptions';
 import LargeTitle from './largeTitle';
 import theme from '../../styles/theme/theme';
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/custom.module.css'
 
 
 
