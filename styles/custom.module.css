@@ -49,11 +49,11 @@
   
   .glass_surface_white_med {
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
     padding: 0 1rem;
   }
   
@@ -69,7 +69,7 @@
   
   .glass_surface_white_hard {
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.6);
+    background: rgb(255, 255, 255, .6);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1px);

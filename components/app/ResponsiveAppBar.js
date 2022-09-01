@@ -1,5 +1,4 @@
 import * as React from 'react';
-import styles from '../../styles/Home.module.css'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,6 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FoundationIcon from '@mui/icons-material/Foundation'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import styles from '../../styles/custom.module.css'
 
 const pages = ['PROPERTIES', 'LOCATIONS', 'ABOUT US', 'CONNECT'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
