@@ -10,7 +10,7 @@ export default function LargeTitle(props) {
     return (
 
         <main className={props.surface_style}>
-            <Grid container xs={12}
+            <Grid item container xs={12}
                 sx={{
                     position: 'relative',
                     width: 'full',
