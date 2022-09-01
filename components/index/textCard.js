@@ -9,27 +9,27 @@ import styles from '../../styles/custom.module.css'
 
 export default function TextCard(props) {
   return (
-    <Card sx={{ width: 'full', mb:2 }} className={props.styling}>
-
-
-      <CardContent>
-        <Typography gutterBottom variant="body2" component="div" className={styles.elegant_paragraph2}
-          sx={{
-            color: props.highlightTextColor
-          }}>
-          {props.titleText}
-        </Typography>
-        {/* <Typography gutterBottom variant="h6" component="div" className={styles.elegant_paragraph2}>
+    <main className={props.styling}  sx={{ width: 'full', mb: 2 }}>
+      
+        <CardContent>
+          <Typography gutterBottom variant="body2" component="div" className={styles.elegant_paragraph2}
+            sx={{
+              color: props.highlightTextColor
+            }}>
+            {props.titleText}
+          </Typography>
+          {/* <Typography gutterBottom variant="h6" component="div" className={styles.elegant_paragraph2}>
           {props.titleText}
         </Typography> */}
-        <Typography variant="subtitle2" className={styles.elegant_paragraph2} sx={{
-          color: props.paragraphColor
-        }}>
-          {props.bodyText}
-        </Typography>
-      </CardContent>
-      {props.cardOptionsButtons}
+          <Typography variant="subtitle2" className={styles.elegant_paragraph2} sx={{
+            color: props.paragraphColor
+          }}>
+            {props.bodyText}
+          </Typography>
+        </CardContent>
+        {props.cardOptionsButtons}
 
-    </Card>
+      
+    </main>
   );
 }
