@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
 
 //MATERIAL IMPORTS
 import Typography from '@mui/material/Typography'
@@ -13,6 +12,7 @@ import theme from '../../styles/theme/theme';
 import LargeTitle from './largeTitle';
 import CardOptions from './cardOptions';
 import TextCard from './textCard';
+import styles from '../../styles/Home.module.css'
 
 export default function AerialShowcase(props) {
     const options = ["View Locations"]

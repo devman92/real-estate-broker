@@ -1,18 +1,13 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
-import Box from '@mui/material/Box'
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-import styles from '../../styles/Home.module.css'
-import theme from '../../styles/theme/theme';
 import dynamic from 'next/dynamic'
 import LargeTitle from './largeTitle';
 import Grid from '@mui/material/Grid'
 import TextCard from './textCard';
 import CardOptions from './cardOptions';
-//import ReactPlayer from "react-player";
+import theme from '../../styles/theme/theme';
+import styles from '../../styles/Home.module.css'
+
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 //
 export default function VideoCard(props) {

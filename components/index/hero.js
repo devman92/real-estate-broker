@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
-import theme from '../../styles/theme/theme';
 
 //MATERIAL IMPORTS
 import Typography from '@mui/material/Typography'
@@ -11,6 +9,9 @@ import Grid from '@mui/material/Grid';
 import TextCard from './textCard';
 import CardOptions from './cardOptions';
 import LargeTitle from './largeTitle';
+import theme from '../../styles/theme/theme';
+import styles from '../../styles/Home.module.css'
+
 
 
 export default function Hero() {

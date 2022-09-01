@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import styles from '../../styles/Home.module.css';
 import theme from '../../styles/theme/theme';
+import styles from '../../styles/Home.module.css';
 
 export default function LabeledTextField(props) {
   return (

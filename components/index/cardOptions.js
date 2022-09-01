@@ -2,8 +2,9 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
-import styles from '../../styles/Home.module.css'
 import theme from '../../styles/theme/theme';
+import styles from '../../styles/Home.module.css'
+
 
 export default function CardOptions(props) {
   return (

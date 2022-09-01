@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+
 
 //MATERIAL IMPORTS
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid';
+import styles from '../../styles/Home.module.css'
 
 export default function LargeTitle(props) {
     return (

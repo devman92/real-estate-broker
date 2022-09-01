@@ -3,8 +3,9 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import { Typography } from '@mui/material';
-import styles from '../../styles/Home.module.css';
 import theme from '../../styles/theme/theme';
+import styles from '../../styles/Home.module.css';
+
 
 export default function Footer() {
     return (
